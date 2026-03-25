@@ -158,7 +158,7 @@ vr::EVRInitError SlimeVRDriver::TrackerDevice::Activate(uint32_t unObjectId) {
     GetDriver()->GetProperties()->SetStringProperty(props, vr::Prop_ManufacturerName_String, "SlimeVR");
     GetDriver()->GetProperties()->SetStringProperty(props, vr::Prop_ModelNumber_String, "SlimeVR Virtual Tracker");
 
-    GetDriver()->GetProperties()->SetStringProperty(props, vr::Prop_RenderModelName_String, "{htc}/rendermodels/vr_tracker_vive_1_0");
+    GetDriver()->GetProperties()->SetStringProperty(props, vr::Prop_RenderModelName_String, "{slimevr}/rendermodels/slime");
 
     // Some device properties will be derived at runtime by SteamVR
     // using the profile, such as the device class and controller type
